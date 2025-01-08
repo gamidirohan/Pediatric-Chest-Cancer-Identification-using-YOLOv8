@@ -57,9 +57,12 @@ Ensure the following folder structure is used:
 project/
 │
 ├── data/
-│   ├── train/
-│   ├── val/
-│   ├── test/
+│   ├── images/
+|       ├──train/
+|       ├──val/
+│   ├── labels/
+|       ├──train/
+|       ├──val/
 │
 ├── annotations/
 │   ├── annotations_train.txt
